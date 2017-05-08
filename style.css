@@ -15,4 +15,6 @@ body {
 .image {
     max-width: 100%;
     height: auto;
+    margin-top: 15%;
+    margin-left: 75%;
 }
