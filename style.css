@@ -1,3 +1,14 @@
+
+body {
+    background-image: url("3201.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
 .h1 {
     font-family: "DejaVu Sans";
+}
+
+.test {
+    width: 400px; margin: auto;
 }
