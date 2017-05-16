@@ -9,6 +9,7 @@ body {
 }
 
 .h1 {
+
     font-family: "DejaVu Sans";
     margin-top: 5%;
     font-style: bold;
@@ -20,13 +21,28 @@ body {
 
 }
 
-.container {
+.about {
     background-color: antiquewhite;
     opacity: 0.7;
 
 }
 
-margin:0 auto
+.vinci {
+    height: 200px;
+    background-image: url("Vinci_-_Hammer_2A_m.jpg");
+    background-repeat: repeat ;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
 
 }
-
+blockquote {
+    font-family: Georgia, "Times new roman", Times;
+    font-style: italic;
+    color: #333;
+    width: 55%;
+    border-left: 5px solid #ddd;
+    padding-left: 25px;
+    position: relative;
+}
