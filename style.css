@@ -10,33 +10,23 @@ body {
 
 .h1 {
     font-family: "DejaVu Sans";
-}
-
-.image {
-    max-width: 100%;
-    height: auto;
-    margin: 20px 20px 20px 20px;
+    margin-top: 5%;
+    font-style: bold;
 
 }
-
-
-.jumbotron {
-    width: 1250px;
-    border-radius: 6px;
-    background-color: aquamarine;
-    text-align: center;
-    align-self: center;
-    margin:0 auto
+.h2 {
+    font-family: "DejaVu Sans";
+    font-style: italic;
 
 }
 
-.navbar-inverse {
-    width: 1250px;
-    margin:0 auto
-}
-
-.left {
-    float: left;
-    text-align: center;
+.container {
+    background-color: antiquewhite;
+    opacity: 0.7;
 
 }
+
+margin:0 auto
+
+}
+
