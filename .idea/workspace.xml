@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae4d2ec8-5862-481f-a952-6bd3374d4822" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1495075630_social_media_logo_twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1495075735_social_media_logo_facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1495075771_social_media_logo_github.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1495075906_email_mail_envelope_send_message.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1495077035_46_wordpress.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Coming-Soon-PNG.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jake-blucker-255891.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tributepage.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,7 +43,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
+            <state relative-caret-position="1967">
               <caret line="103" column="83" lean-forward="false" selection-start-line="103" selection-start-column="83" selection-end-line="103" selection-end-column="83" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -624,11 +614,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495030720843</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="playing with background and img">
+      <created>1495060931996</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1495060931996</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55301000" />
+    <option name="totallyTimeSpent" value="55496000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1342,7 +1339,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
+        <state relative-caret-position="1967">
           <caret line="103" column="83" lean-forward="false" selection-start-line="103" selection-start-column="83" selection-end-line="103" selection-end-column="83" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
