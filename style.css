@@ -52,9 +52,13 @@ body {
 
 }
 
+.h3 {
+    font-family: Audiowide;
+}
+
 .about {
     background-color: coral;
-    margin-top: 6%;
+    margin-top: 1px;
     opacity: 0.7;
 }
 
@@ -69,11 +73,28 @@ body {
 .work {
     background-color: burlywood;
     opacity: 0.7;
+    text-align: center;
 }
 
-.vinci {
-    height: 150px;
-    background-image: url("Vinci_-_Hammer_2A_m.jpg");
+.img_work {
+    height: 300pt;
+    width: 400pt;
+    padding: 5%;
+}
+
+.contact {
+    background-color: bisque;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.img-responsive {
+    margin: 0 auto  ;
+}
+
+.city {
+    height: 600pt;
+    background-image: url("jake-blucker-255891.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -83,16 +104,23 @@ body {
     margin-bottom: 1px;
 }
 
-.q {
-    font-size: 25px;
-    font-family: "DejaVu Sans";
-    margin-top: 2%;
-}
+.city2 {
+    height: 40pt;
+    background-image: url("jake-blucker-255891.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
 
-footer {
+
+.footer {
     font-size: 25px;
-    font-family: "DejaVu Sans";
+    font-family: Audiowide;
     text-align: right;
 }
+
 
 
