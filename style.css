@@ -14,6 +14,7 @@ body {
 
 .navbar-container {
     padding: 10px 0 10px 0;
+    font-family: Audiowide;
 }
 
 .navbar.navbar-fixed-top.fixed-theme {
@@ -41,13 +42,13 @@ body {
 
 .h1 {
 
-    font-family: "DejaVu Sans";
+    font-family: Audiowide;
     margin-top: 5%;
     font-style: bold;
 
 }
 .h2 {
-    font-family: "DejaVu Sans";
+    font-family: Audiowide;
 
 }
 
@@ -73,10 +74,10 @@ body {
 .vinci {
     height: 150px;
     background-image: url("Vinci_-_Hammer_2A_m.jpg");
-    background-repeat: repeat ;
+    background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     text-align: center;
     margin-top: 1px;
     margin-bottom: 1px;
