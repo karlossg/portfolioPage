@@ -75,7 +75,7 @@ body {
     background-repeat: repeat ;
     background-position: center center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     text-align: center;
     margin-top: 1%;
     margin-bottom: 1%;
