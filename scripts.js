@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+
     /**
      * This object controls the nav bar. Implement the add and remove
      * action over the elements of the nav bar that we want to change.
@@ -75,5 +76,30 @@ $(document).ready(function(){
      * could be load with scroll down set.
      */
     offSetManager();
+
+    /* Enable smooth scrolling on all links with anchors */
+    $('#nav.smoothscroll ul li a[href^="#"]').on('click', function(e) {
+
+        // prevent default anchor click behavior
+        e.preventDefault();
+
+        // store hash
+        var hash = this.hash;
+
+        // animate
+        $('html, body').animate({
+            scrollTop: $('a[name="' + this.hash.replace('#', '') + '"]').offset().top
+        }, 300, function(){
+
+            // when done, add hash to url
+            // (default click behaviour)
+            window.location.hash = hash;
+
+        });
+    });
+
+    $('.navbar-collapse a').click(function(){
+        $(".navbar-collapse").collapse('hide');
+    });
 });
 
