@@ -48,12 +48,19 @@ body {
 
 }
 .h2 {
-    font-family: Audiowide;
-
+    font-family: "Roboto Condensed"
+    font-size: x-large;
+    text-align: left;
 }
 
 .h3 {
     font-family: Audiowide;
+}
+
+.title {
+    font-family: Audiowide;
+    font-size: x-large;
+    text-align: center;
 }
 
 .about {
@@ -93,7 +100,7 @@ body {
 }
 
 .city {
-    height: 600pt;
+    height:550pt;
     background-image: url("jake-blucker-255891.jpg");
     background-repeat: no-repeat;
     background-position: center center;
