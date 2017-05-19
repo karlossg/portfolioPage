@@ -80,23 +80,19 @@ $(document).ready(function(){
     offSetManager();
 
     /* Enable smooth scrolling on all links with anchors */
-    $('#nav.smoothscroll ul li a[href^="#"]').on('click', function(e) {
+    $(".bs-js-navbar-scrollspy ul li a[href^='#']").on('click', function(event) {
+        var target;
+        target = this.hash;
 
-        // prevent default anchor click behavior
-        e.preventDefault();
+        event.preventDefault();
 
-        // store hash
-        var hash = this.hash;
+        var navOffset;
+        navOffset = $('#navbar').height();
 
-        // animate
-        $('html, body').animate({
-            scrollTop: $('a[name="' + this.hash.replace('#', '') + '"]').offset().top
-        }, 300, function(){
-
-            // when done, add hash to url
-            // (default click behaviour)
-            window.location.hash = hash;
-
+        return $('html, body').animate({
+            scrollTop: $(this.hash).offset().top - navOffset
+        }, 300, function() {
+            return window.history.pushState(null, null, target);
         });
     });
 
