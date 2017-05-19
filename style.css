@@ -64,7 +64,7 @@ body {
 }
 
 .about {
-    background-color: coral;
+    background-color: darksalmon;
     margin-top: 1px;
     opacity: 0.7;
 }
@@ -78,7 +78,7 @@ body {
     }
 
 .work {
-    background-color: burlywood;
+    background-color: darksalmon;
     opacity: 0.7;
     text-align: center;
 }
@@ -90,7 +90,7 @@ body {
 }
 
 .contact {
-    background-color: bisque;
+    background-color: darksalmon;
     opacity: 0.7;
     text-align: center;
 }
