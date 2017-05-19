@@ -1,5 +1,5 @@
 body {
-    background-image: url("OLO2EG0.jpg");
+    background-image: url("jake-blucker-255891.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -66,20 +66,20 @@ body {
 .about {
     background-color: darksalmon;
     margin-top: 1px;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 .skills {
     height: 200%;
     background-color: darksalmon;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.9;
 
     }
 
 .work {
     background-color: darksalmon;
-    opacity: 0.7;
+    opacity: 0.9;
     text-align: center;
 }
 
@@ -91,7 +91,7 @@ body {
 
 .contact {
     background-color: darksalmon;
-    opacity: 0.7;
+    opacity: 0.9;
     text-align: center;
 }
 
@@ -100,7 +100,7 @@ body {
 }
 
 .city {
-    height:550pt;
+    height: 650pt;
     background-image: url("jake-blucker-255891.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -113,7 +113,7 @@ body {
 }
 
 .city2 {
-    height: 40pt;
+    height: 20pt;
     background-image: url("jake-blucker-255891.jpg");
     background-repeat: no-repeat;
     background-position: center center;
