@@ -1,11 +1,8 @@
-
-
-
-$('.navbar-collapse a').click(function(){
-    $(".navbar-collapse").collapse('hide');
-});
-
 $(document).ready(function(){
+    
+    $('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+    });
     /**
      * This object controls the nav bar. Implement the add and remove
      * action over the elements of the nav bar that we want to change.
