@@ -1,7 +1,7 @@
-$(document).ready(function(){
-    
-    $('.navbar-collapse a').click(function(){
-    $(".navbar-collapse").collapse('hide');
+$(document).ready(function () {
+
+    $('.navbar-collapse a').click(function () {
+        $(".navbar-collapse").collapse('hide');
     });
     /**
      * This object controls the nav bar. Implement the add and remove
@@ -19,19 +19,19 @@ $(document).ready(function(){
             this.elements = elements;
         },
 
-        add : function() {
-            if(this.flagAdd) {
-                for(var i=0; i < this.elements.length; i++) {
+        add: function () {
+            if (this.flagAdd) {
+                for (var i = 0; i < this.elements.length; i++) {
                     document.getElementById(this.elements[i]).className += " fixed-theme";
                 }
                 this.flagAdd = false;
             }
         },
 
-        remove: function() {
-            for(var i=0; i < this.elements.length; i++) {
+        remove: function () {
+            for (var i = 0; i < this.elements.length; i++) {
                 document.getElementById(this.elements[i]).className =
-                    document.getElementById(this.elements[i]).className.replace( /(?:^|\s)fixed-theme(?!\S)/g , '' );
+                    document.getElementById(this.elements[i]).className.replace(/(?:^|\s)fixed-theme(?!\S)/g, '');
             }
             this.flagAdd = true;
         }
@@ -42,7 +42,7 @@ $(document).ready(function(){
      * Init the object. Pass the object the array of elements
      * that we want to change when the scroll goes down
      */
-    myNavBar.init(  [
+    myNavBar.init([
         "header",
         "header-container",
         "brand"
@@ -52,15 +52,14 @@ $(document).ready(function(){
      * Function that manage the direction
      * of the scroll
      */
-    function offSetManager(){
+    function offSetManager() {
 
         var yOffset = 0;
         var currYOffSet = window.pageYOffset;
 
-        if(yOffset < currYOffSet) {
+        if (yOffset < currYOffSet) {
             myNavBar.add();
-        }
-        else if(currYOffSet == yOffset){
+        } else if (currYOffSet == yOffset) {
             myNavBar.remove();
         }
 
@@ -69,7 +68,7 @@ $(document).ready(function(){
     /**
      * bind to the document scroll detection
      */
-    window.onscroll = function(e) {
+    window.onscroll = function (e) {
         offSetManager();
     }
 
@@ -80,7 +79,7 @@ $(document).ready(function(){
     offSetManager();
 
     /* Enable smooth scrolling on all links with anchors */
-    $(".bs-js-navbar-scrollspy ul li a[href^='#']").on('click', function(event) {
+    $(".bs-js-navbar-scrollspy ul li a[href^='#']").on('click', function (event) {
         var target;
         target = this.hash;
 
@@ -91,7 +90,7 @@ $(document).ready(function(){
 
         return $('html, body').animate({
             scrollTop: $(this.hash).offset().top - navOffset
-        }, 300, function() {
+        }, 300, function () {
             return window.history.pushState(null, null, target);
         });
     });
