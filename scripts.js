@@ -3,12 +3,7 @@ $(document).ready(function () {
     $('.navbar-collapse a').click(function () {
         $(".navbar-collapse").collapse('hide');
     });
-    /**
-     * This object controls the nav bar. Implement the add and remove
-     * action over the elements of the nav bar that we want to change.
-     *
-     * @type {{flagAdd: boolean, elements: string[], add: Function, remove: Function}}
-     */
+    
     var myNavBar = {
 
         flagAdd: true,
@@ -38,20 +33,13 @@ $(document).ready(function () {
 
     };
 
-    /**
-     * Init the object. Pass the object the array of elements
-     * that we want to change when the scroll goes down
-     */
-    myNavBar.init([
+       myNavBar.init([
         "header",
         "header-container",
         "brand"
     ]);
 
-    /**
-     * Function that manage the direction
-     * of the scroll
-     */
+    
     function offSetManager() {
 
         var yOffset = 0;
@@ -65,20 +53,14 @@ $(document).ready(function () {
 
     }
 
-    /**
-     * bind to the document scroll detection
-     */
+   
     window.onscroll = function (e) {
         offSetManager();
     }
 
-    /**
-     * We have to do a first detectation of offset because the page
-     * could be load with scroll down set.
-     */
     offSetManager();
 
-    /* Enable smooth scrolling on all links with anchors */
+   
     $(".bs-js-navbar-scrollspy ul li a[href^='#']").on('click', function (event) {
         var target;
         target = this.hash;
