@@ -1,3 +1,5 @@
+'strict mode'
+
 $(document).ready(function () {
 
     $('.navbar-collapse a').click(function () {
